@@ -1,4 +1,4 @@
-# 4.Execution_of_NetworkCommands
+# 4A.Execution_of_NetworkCommands
 ## AIM :Use of Network commands in Real Time environment
 ## Software : Command Prompt And Network Protocol Analyzer
 ## Procedure: To do this EXPERIMENT- follows these steps:
@@ -51,24 +51,12 @@ while True:
     s.send(ip.encode())
     print(s.recv(1024).decode())
 ```
-## TRACEROUTE COMMAND
-```
-from scapy.all import*
-target = ["www.google.com"]
-result, unans = traceroute(target,maxttl=32)
-print(result,unans)
-```
-
 ## Output
 
 ![Screenshot 2025-04-22 113635](https://github.com/user-attachments/assets/f556f025-97eb-4984-9c0c-dc4fa597e7eb)
 
 
 ![ex](https://github.com/user-attachments/assets/c047db11-8bdd-4a2c-8d84-a37f14e4c2c2)
-
-
-![Screenshot 2025-04-22 114733](https://github.com/user-attachments/assets/7bf851a0-ffe3-4303-8ee5-b3665f75cd07)
-
 
 
 ## Result
